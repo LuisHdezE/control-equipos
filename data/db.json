@@ -1,0 +1,62 @@
+{
+  "marcas": [
+    {
+      "codigo": "001",
+      "nombre": "Apple"
+    },
+    {
+      "codigo": "002",
+      "nombre": "Samsung"
+    },
+    {
+      "codigo": "003",
+      "nombre": "Xiaomi"
+    },
+    {
+      "codigo": "004",
+      "nombre": "Huawei"
+    },
+    {
+      "codigo": "005",
+      "nombre": "Motorola"
+    }
+  ],
+  "modelos": [
+    {
+      "codigo": "001",
+      "marca": "001",
+      "nombre": "Iphone 6"
+    },
+    {
+      "codigo": "002",
+      "marca": "001",
+      "nombre": "Iphone 7"
+    }
+  ],
+  "partes": [
+    {
+      "codigo": "1",
+      "nombre": "Display"
+    },
+    {
+      "codigo": "2",
+      "nombre": "Bateria"
+    }
+  ],
+  "equipos": [
+    {
+      "seleccionar": true,
+      "numero": "001",
+      "marca": "002",
+      "modelo": "002",
+      "imei": "123654789",
+      "diagnostico": "display partido, falta bandeja",
+      "nota": "Bateria",
+      "bloqueado": true,
+      "repuestos": [
+        { "nombre": "display", "costo": "1480" },
+        { "nombre": "bandeja sim", "costo": "35" }
+      ]
+    }
+  ]
+}
